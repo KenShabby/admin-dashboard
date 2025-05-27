@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -83,9 +85,46 @@
     grid-column: 1;
 }
 
-.profile {
+.searchbar img {
+    background: white;
+    width: 25px;
+    padding-top: 14px;
+    padding-left: 30px;
+}
+
+.searchbar input {
+    display: inline;
+    justify-content: right;
+    align-content: center;
+    background: var(--secondary-color);
+    margin-right: 30px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+}
+
+.notifications-area {
     grid-row: 1;
     grid-column: 2;
+    border: 1px solid red;
+    padding-left: 50px;
+}
+
+.notifications-area img#bell {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.notifications-area img#avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .greeting {
@@ -98,7 +137,7 @@
     grid-column: 2;
 }
 
-button {
+.buttons button {
     color: white;
     background: var(--primary-color);
     border-radius: 20px;
